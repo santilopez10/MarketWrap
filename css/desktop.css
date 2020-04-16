@@ -9,7 +9,7 @@ body {
 
 #wrap {
     margin: 30px auto 0 auto;
-    width: 1024px;
+    width: 984px;
     display:flex;
 }
 /*----------------------------------------------------------------- Title --------------------------------------------------------------------------------*/
@@ -36,7 +36,7 @@ body {
     top: 0;
     margin: 0 auto;
     padding-bottom: 10px;
-    width: 1024px;
+    width: 984px;
     z-index: 10;
 }
 
@@ -138,8 +138,8 @@ body {
     position: fixed;
     left:50%;
     height: 300px;
-    margin: 0 0 0 110px;
-    width: 400px;
+    margin: 0 0 0 130px;
+    width: 360px;
     border: 1px solid #dbdbdb;
     border-radius: 15px;
     background: white;
@@ -161,7 +161,7 @@ body {
     padding-left: 15px;
     box-sizing: border-box;
     margin: 0;
-    width: 240px;
+    width: 200px;
     align-content: center;
 }
 
@@ -218,4 +218,160 @@ body {
     color: #8e8e8e;
     margin-left: auto;
     margin-right: 15px;
+}
+
+/*--------------------------------------------------------------- Feed Alt Pages -----------------------------------------------------------------------------*/
+
+#newsA {
+    height: 2000px;
+    width: 100%;
+    background-color: none;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.mainArticleA {
+    display: flex;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 580px;
+    height: 630px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.sideArticleA {
+    display: flex;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 380px;
+    height: 630px;
+    margin: 0 0 20px 20px;
+    text-decoration: none;
+    color: black;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.altArticleA {
+    display:flex;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.mainPicA {
+    width: 600px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 15px;
+    align-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.mainTextA {
+    width: 600px;
+    padding: 15px;
+
+}
+
+.mainSourceA {
+    font-size: 12px;
+}
+
+.mainTitleA {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.mainTeaserA {
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+.sidePicA {
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 15px;
+    align-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.sideTextA {
+    width: 400px;
+    padding: 15px;
+}
+
+.sideSourceA {
+    font-size: 12px;
+}
+
+.sideTitleA {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sideTeaserA {
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+.altPicA {
+    width: 300px;
+    height: 160px;
+    border-radius: 15px;
+    margin: 15px;
+    align-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.altTextA {
+    width: 700px;
+    padding: 15px;
+}
+
+.altSourceA {
+    font-size: 12px;
+}
+
+.altTitleA {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.altTeaserA {
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+#img1A {
+    position: relative;
+    width: 600px;
+}
+
+#img2A {
+    position: relative;
+    width:400px;
+}
+
+#img3A {
+    position: relative;
+    margin: -30px 0 0 0;
+    width: 300px;
+    height:200px;
 }
