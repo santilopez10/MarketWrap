@@ -8,8 +8,8 @@ body {
 }
 
 #wrap {
-    margin: 30px auto 0 auto;
-    width: 450px;
+    margin: 5px auto 0 auto;
+    width: 250px;
     display:flex;
     flex-direction: column;
     overflow-wrap: normal;
@@ -31,19 +31,21 @@ body {
 /*--------------------------------------------------------------- NAVIGATION -----------------------------------------------------------------------------*/
 
 #navigation {
-    height: 40px;
     background-color: white;
     display: flex;
-    position: sticky;
+    position: relative;
     top: 0;
+    flex-wrap: wrap;
     margin: 0 auto;
     padding-bottom: 10px;
-    width: 450px;
+    width: 250px;
     z-index: 10;
 }
 
 #navigation ul {
     display: flex;
+    overflow-wrap: normal;
+    flex-wrap: wrap;
     margin: 0 auto;
     width: 100%;
     padding: 0;
@@ -53,8 +55,10 @@ body {
 
 #navigation ul li {
     list-style: none;
-    margin: 0;
+    margin: 5px;
+    width: 115px;
     padding: 0;
+    text-align: center;
     
 }
 
@@ -62,27 +66,21 @@ body {
     text-decoration: none;
     padding: 10px;
     font-weight: 700;
-    font-size: 19px;
+    font-size: 15px;
     color: #2e2e2e;
     border-radius: 50px;
-}
-
-#navigation ul li a:hover {
-    background-color: rgba(210, 248, 198, 0.993);
-    color: #3e9e3e;
 }
 
 /*--------------------------------------------------------------- Feed -----------------------------------------------------------------------------*/
 
 #news {
-    height: 2000px;
-    width: 450px;
-    margin:0 auto;
-    background-color: none;
-    display:flex;
-    flex-direction: column;
     overflow-wrap: normal;
-
+    width: 100%;
+    background-color: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: column;
 }
 
 .article {
@@ -95,11 +93,12 @@ body {
     text-decoration: none;
     color: black;
     overflow-wrap: normal;
+    flex-wrap: wrap;
 }
 
 .newsPic {
-    width: 130px;
-    height: 130px;
+    width: 250px;
+    height: 100px;
     border-radius: 15px;
     margin: 15px;
     align-content: center;
@@ -128,24 +127,27 @@ body {
 
 #img1 {
     position: relative;
-    margin: 0 0 0 -30px;
+    width: 220px !important;
+    height: auto !important;
 }
 
 #img2 {
     position: relative;
-    margin: -60px 0 0px -365px;
+    width: 220px !important;
+    height: auto !important;
 }
 
 /*--------------------------------------------------------------- Watchlist -----------------------------------------------------------------------------*/
 
 #watchlist {
     position: relative;
-    height: 300px;
     margin: 0 auto 20px auto;
-    width: 450px;
+    padding-bottom: 10px;
+    width: 250px;
     border: 1px solid #dbdbdb;
     border-radius: 15px;
     background: white;
+    overflow-wrap: normal;
 }
 
 #watchlist ul {
@@ -161,15 +163,15 @@ body {
 }
 
 .security {
-    padding-left: 15px;
+    padding-left: 10px;
     box-sizing: border-box;
     margin: 0;
-    width: 240px;
+    width: 140px;
     align-content: center;
 }
 
 .price {
-    width: 80px;
+    width: 55px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -178,7 +180,7 @@ body {
 }
 
 .change {
-    width:80px;
+    width:55px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -186,41 +188,45 @@ body {
 }
 
 .ticker {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
 }
 
 .name {
-    font-size: 13px;
+    font-size: 11px;
     color: #8e8e8e;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .last {
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 600;
     margin-left: auto;
     margin-right: 10px;
 }
 
 .time {
-    font-size: 10px;
+    font-size: 7px;
     margin: 3px 10px 0 auto;
     color: #8e8e8e;
 }
 
 .dollarChange {
-    font-size: 14px;
+    font-size: 11px;
     font-weight: 600;
     color: #d24040;
     margin-left: auto;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .percentChange {
-    font-size: 12px;
+    font-size: 9px;
     color: #8e8e8e;
     margin-left: auto;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 /*--------------------------------------------------------------- Feed Alt Pages -----------------------------------------------------------------------------*/
@@ -280,8 +286,8 @@ body {
 }
 
 .mainPicA {
-    width: 420px;
-    height: 300px;
+    width: 250px;
+    height: 100px;
     border-radius: 15px;
     margin: 15px;
     align-content: center;
@@ -307,11 +313,13 @@ body {
 .mainTeaserA {
     font-size: 14px;
     color: #8e8e8e;
+    overflow: hidden;
+    height: 100px;
 }
 
 .sidePicA {
-    width: 420px;
-    height: 300px;
+    width: 250px;
+    height: 100px;
     border-radius: 15px;
     margin: 15px;
     align-content: center;
@@ -336,11 +344,13 @@ body {
 .sideTeaserA {
     font-size: 14px;
     color: #8e8e8e;
+    overflow: hidden;
+    height: 100px;
 }
 
 .altPicA {
-    width: 420px;
-    height: 300px;
+    width: 250px;
+    height: 100px;
     border-radius: 15px;
     margin: 15px;
     align-content: center;
@@ -365,20 +375,21 @@ body {
 .altTeaserA {
     font-size: 14px;
     color: #8e8e8e;
+    overflow: hidden;
+    height: 100px;
 }
 
 #img1A {
     position: relative;
-    width: 600px;
+    width: 220px;
 }
 
 #img2A {
     position: relative;
-    width:600px;
+    width:220px;
 }
 
 #img3A {
     position: relative;
-    margin: 0 0 0 -50px;
-    width: 500px;
+    width: 220px;
 }
