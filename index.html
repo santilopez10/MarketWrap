@@ -15,6 +15,10 @@
     <link rel="stylesheet" media="only screen and (min-width: 961px)" href="css/desktop.css">
     <!-- Prevent smartphones from scaling pages down -->
     <meta name="viewport" content="initial-scale=1">
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.js"  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
 </head>
 
 <body>
@@ -36,26 +40,12 @@
                         <div class="name">S&P 500 Index</div>
                     </div>
                     <div class="price">
-                        <div class="last">2,778.72</div>
-                        <div class="time">1:59 PM EDT</div>
+                        <div class="last" id="SNP" ></div>
+                        <div class="time"></div>
                     </div>
                     <div class="change">
-                        <div class="dollarChange">-64.21</div>
-                        <div class="percentChange">-2.21%</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="security">
-                        <div class="ticker">NASDAQ</div>
-                        <div class="name">NASDAQ Composite</div>
-                    </div>
-                    <div class="price">
-                        <div class="last">8,394.67</div>
-                        <div class="time">1:59 PM EDT</div>
-                    </div>
-                    <div class="change">
-                        <div class="dollarChange">-114.44</div>
-                        <div class="percentChange">-1.33%</div>
+                        <div class="dollarChange"></div>
+                        <div class="percentChange"></div>
                     </div>
                 </li>
                 <li>
@@ -64,12 +54,26 @@
                         <div class="name">Dow Jones Industrial Average</div>
                     </div>
                     <div class="price">
-                        <div class="last">23,468.71</div>
-                        <div class="time">1:59 PM EDT</div>
+                        <div class="last" id="DJI"></div>
+                        <div class="time"></div>
                     </div>
                     <div class="change">
-                        <div class="dollarChange">-449.68</div>
-                        <div class="percentChange">-1.88%</div>
+                        <div class="dollarChange"></div>
+                        <div class="percentChange"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="security">
+                        <div class="ticker">NASDAQ</div>
+                        <div class="name">NASDAQ Composite</div>
+                    </div>
+                    <div class="price">
+                        <div class="last" id="NASDAQ"></div>
+                        <div class="time"></div>
+                    </div>
+                    <div class="change">
+                        <div class="dollarChange"></div>
+                        <div class="percentChange"></div>
                     </div>
                 </li>
                 <li>
@@ -78,12 +82,12 @@
                         <div class="name">WTI Crude</div>
                     </div>
                     <div class="price">
-                        <div class="last">20.19</div>
-                        <div class="time">1:59 PM EDT</div>
+                        <div class="last" id="WTI"></div>
+                        <div class="time"></div>
                     </div>
                     <div class="change">
-                        <div class="dollarChange">-0.03</div>
-                        <div class="percentChange">-0.15%</div>
+                        <div class="dollarChange"></div>
+                        <div class="percentChange"></div>
                     </div>
                 </li>
                 <li>
@@ -92,12 +96,12 @@
                         <div class="name">GOLD COMEX</div>
                     </div>
                     <div class="price">
-                        <div class="last">1,743.90</div>
-                        <div class="time">1:59 PM EDT</div>
+                        <div class="last" id="GOLD"></div>
+                        <div class="time"></div>
                     </div>
                     <div class="change">
-                        <div class="dollarChange">-26.00</div>
-                        <div class="percentChange">-1.47%</div>
+                        <div class="dollarChange"></div>
+                        <div class="percentChange"></div>
                     </div>
                 </li>
                 <li>
@@ -106,11 +110,11 @@
                         <div class="name">U.S. 10 Year Treasury</div>
                     </div>
                     <div class="price">
-                        <div class="last">0.646%</div>
-                        <div class="time">1:59 PM EDT</div>
+                        <div class="last" id="10YR"></div>
+                        <div class="time"></div>
                     </div>
                     <div class="change">
-                        <div class="dollarChange">-0.104</div>
+                        <div class="dollarChange"></div>
                         <div class="percentChange"></div>
                     </div>
                 </li>
