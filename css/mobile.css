@@ -393,3 +393,7 @@ body {
     position: relative;
     width: 220px;
 }
+
+.hover {
+    cursor: pointer;
+}
